@@ -151,6 +151,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .hero-container {
@@ -184,11 +185,12 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .article-btn:hover,
 .article-btn:focus {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 .features {
@@ -293,6 +295,7 @@ img {
     display: flex;
     gap: 24px;
     margin: 0 16px;
+    justify-content: center;
 }
 
 .icon-item {
@@ -311,7 +314,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:hover {
+.icon-link:hover, .icon-link:focus {
     background-color: #404bbf;
 }
 
@@ -404,10 +407,11 @@ img {
 
 .footer-box {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 }
 
 .footer-left {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -460,7 +464,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover, .footer-icon-link:focus {
     background-color: #31D0AA;
 }
 
