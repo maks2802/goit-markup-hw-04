@@ -203,14 +203,20 @@ img {
 }
 
 .fetures-icon-list {
+}
+
+.features-icon-box {
     display: flex;
-    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .fetures-icon-item {
-}
-
-.features-rectangle {
 }
 
 .fetures-icon-link {
