@@ -202,9 +202,6 @@ img {
 .features {
 }
 
-.fetures-icon-list {
-}
-
 .features-icon-box {
     display: flex;
     align-items: center;
@@ -216,10 +213,7 @@ img {
     margin-bottom: 8px;
 }
 
-.fetures-icon-item {
-}
-
-.fetures-icon-logo {
+.features-icon-logo {
 }
 
 .features-list {
